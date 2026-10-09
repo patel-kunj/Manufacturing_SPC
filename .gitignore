@@ -1,0 +1,35 @@
+# Private data — real production dataset, never push to GitHub
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# Minitab project files (binary, may contain local paths)
+*.mpx
+*.mpj
+*.mtw
+*.mtb
+
+# Office temp / lock files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# IDE / editor files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Python (if any scripts are added later)
+__pycache__/
+*.pyc
+.env
+
+# Agent / tool files
+.agents/
+.gemini/
